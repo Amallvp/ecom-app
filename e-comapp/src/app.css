@@ -1,0 +1,17 @@
+.app-main{
+    display: flex;
+}
+.app-left{
+    width:2vw;
+    height: 100vh;
+    background-color: black;
+}
+.app-right{
+   
+    width: 2vw;
+    height: 100vh;
+    background-color: black;
+}
+.app-components{
+    flex: 12
+}

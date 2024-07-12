@@ -1,0 +1,48 @@
+.banner {
+
+    padding: 0px 40px;
+}
+
+.banner-dropdowns {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 10px;
+}
+
+.banner-dropdown-title {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.banner-dropdown-items {
+
+    position: relative;
+}
+
+.dropdown-details>li:hover {
+    cursor: pointer;
+    width: 100%;
+}
+
+.dropdown-details {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    background-color: beige;
+    width: 100px;
+    height: 140px;
+    right: 10;
+    top: 40px;
+
+}
+.active{
+   
+    transition: all .3s ease-in-out;
+    display: none;
+}
