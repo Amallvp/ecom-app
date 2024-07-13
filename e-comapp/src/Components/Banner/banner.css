@@ -1,6 +1,7 @@
 .banner {
 
     padding: 0px 40px;
+    height: auto;
 }
 
 .banner-dropdowns {
@@ -15,11 +16,13 @@
 
 .banner-dropdown-title {
     font-family: "Noto Sans", sans-serif;
+    cursor: pointer;
+    
 }
 
 .banner-dropdown-items {
-
     position: relative;
+    cursor: pointer;
 }
 
 .dropdown-details>li:hover {
@@ -45,4 +48,13 @@
    
     transition: all .3s ease-in-out;
     display: none;
+}
+
+.imageSlider{
+
+    margin-top: 30px;
+}
+.image-slider1{
+
+    width: 100%;
 }

@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './banner.css'
 import Banner1 from '../../Images/Banner1.png'
 import Banner2 from '../../Images/Banner2.png'
 import Banner3 from '../../Images/Banner3.png'
+
 
 function Banner() {
 
@@ -18,7 +19,6 @@ function Banner() {
             [category]: !prevState[category],
         }));
     };
-
 
     return (
 
@@ -61,23 +61,10 @@ function Banner() {
 
             </div>
 
-            {/* <div className="carousel">
+           <div className="imageSlider">
+            <img className='image-slider1' src={Banner1} alt="" />
+           </div>
 
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src={Banner1} class="d-block w-100" alt="..." />
-                        </div>
-                        <div class="carousel-item">
-                            <img src={Banner2} class="d-block w-100" alt="..." />
-                        </div>
-                        <div class="carousel-item">
-                            <img src={Banner3} class="d-block w-100" alt="..." />
-                        </div>
-                    </div>
-                </div>
-
-            </div> */}
         </>
     )
 }

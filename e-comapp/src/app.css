@@ -3,13 +3,13 @@
 }
 .app-left{
     width:2vw;
-    height: 100vh;
+    height: auto;
     background-color: black;
 }
 .app-right{
    
     width: 2vw;
-    height: 100vh;
+    height: auto;
     background-color: black;
 }
 .app-components{
